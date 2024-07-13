@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-weight: normal;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000;
+    text-transform: capitalize;
+    color: #ddd;
+    align-items: center;
+    height: 150px;
+    column-gap: 40px;
+
+}
+
+li:first-of-type{
+    align-self: flex-start;
+
+}
+
+main{
+    height: 500px;
+    background-color: #000;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}

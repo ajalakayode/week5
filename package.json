@@ -1,0 +1,22 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "CSS: GRID, FLEX BOX AND MEDIA QUERY",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jonathan": "tailwindcss -i ./kayode.css -o ./kayode/ajala.css --watch "
+  },
+  "author": "kay",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "kay"
+  ],
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
